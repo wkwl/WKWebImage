@@ -1,4 +1,4 @@
-参照SDWebImage，我们动手仿写一个demo。这个demo只包括SDWebImage的基本实现过程，不会涵盖所有的功能，重点在于理解和掌握作者的实现思路，同时避免代码过于复杂，难以理解。
+这个demo只包括SDWebImage的基本实现过程，不会涵盖所有的功能，重点在于理解和掌握作者的实现思路，同时避免代码过于复杂，难以理解。
 UIImageView+WKWebImage.h 入口封装，提供对外的获取图片接口，回调取到的图片。
 WKWebImageManager.h 记录图片的缓存与下载，看哪些图片有缓存，哪些图片需下载
 WKWebImageDownloader.h 从网路下载图片
